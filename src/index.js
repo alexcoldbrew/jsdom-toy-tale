@@ -97,7 +97,6 @@ addBtn.addEventListener('click', () => {
 
 getToys().then(toys => {
   toys.forEach(toy => {
-    //function to render toys goes here or something
     renderToys(toy)
   })
 })
